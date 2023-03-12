@@ -16,7 +16,7 @@ namespace EasyConsole
 
             while (value < min || value > max)
             {
-                Output.DisplayPrompt("Please enter an integer between {0} and {1} (inclusive)", min, max);
+                Output.DisplayPrompt("Por favor ingrese un numero del {0} a {1}"), min, max);
                 value = ReadInt();
             }
 
